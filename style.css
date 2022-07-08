@@ -1,20 +1,21 @@
 
-body
+
+html, body
 {
 	font-family: Monospace;
   background-color: #171717;
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+
 }
 * {
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
 
-html {
-   scroll-behavior: smooth;
-}
-@media screen and (min-width: 800px) {
+
 /*--------------------------*/
 nav {
   background-color: #333;
@@ -24,7 +25,6 @@ nav {
   min-height: 8vh;
   position: fixed;
   width: 100%;
-  justify-content: !important space-around;
   
 }
 
@@ -78,6 +78,7 @@ header {
   background-position: center;
   background-attachment: fixed;
   background-image: url(images/pixels3.jpg);
+
 }
 
 
@@ -432,7 +433,6 @@ h3 {
   align-items: center;
   justify-content: center;
   display: flex;
-  flex-wrap: flex;
   align-content: center;
 }
 .box1:hover,
@@ -463,7 +463,6 @@ i {
 /*--------------------------*/
 
 .about-me{
-  background-image: ;
   width: 100%;
   padding-top: 220px;
   margin-bottom: 50px;
@@ -578,4 +577,3 @@ footer
   font-weight: 200;
 }
 
-}
