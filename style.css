@@ -14,10 +14,14 @@ html, body
   margin: 0;
 }
 
+@media screen and (max-width: 1200px) and (min-width: 768px)
+{
+
+}
 
 
 /*--------------------------*/
-nav {
+#navigation {
   background-color: #333;
   display: flex;
   z-index: 2;
@@ -45,6 +49,7 @@ nav {
   list-style: none;
   text-align: center;
   text-transform: uppercase;
+  display: inline-block;
 }
 
 .navbar-content li a {
@@ -71,7 +76,7 @@ nav {
 }
 
 /*--------------------------*/
-header {
+#header {
   background-color: #000000;
   width: 100%;
   height: 100%;
@@ -462,7 +467,7 @@ i {
 
 /*--------------------------*/
 
-.about-me{
+#about-me{
   width: 100%;
   padding-top: 220px;
   margin-bottom: 50px;
@@ -475,7 +480,7 @@ i {
 
   
 }
-.about-me img {
+#about-me img {
   height: auto;
   width: 420px;
   box-shadow: -20px 20px 0 rgb(201, 53, 42, 1);
@@ -485,7 +490,7 @@ i {
   margin-left: 150px;
   color: #fff;
 }
-#main {
+.about-me-content {
   width: 1130px;
   max-width: 95%;
   margin: 0 auto;
@@ -494,13 +499,13 @@ i {
   align-content: space-around;
 }
 
-.about-text p {
+#about-text p {
   font-size: 13px;
   letter-spacing: 0.2px;
   line-height: 20px;
   margin-bottom: 20px;
 }
-.about-me button {
+#about-me button {
   background: #c9352a;
   color: #fff;
   text-decoration: none;
@@ -509,15 +514,16 @@ i {
   padding: 13px 30px;
   transition: .4s;
   margin-left: 2px;
+  margin-top: 10px;
 }
-.about-me button:hover {
+#about-me button:hover {
   background: transparent;
   border: 2px solid #c9352a;
   cursor: pointer;
 }
 
 /*--------------------------*/
-footer
+#footer
 {
  
   height: auto;
