@@ -1,28 +1,31 @@
 
+	
 	<!DOCTYPE html>
 	<html lang="pl">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet"  href="style_mobile.css">
+		<link rel="stylesheet"  href="style_animation_mobile.css">
 		<meta name="description" content="Osobista strona internetowa">
 		<meta name="author" content="Rafał Zieleniewski">
 		 <link rel="icon" type="image/x-icon" href="images/logo_transparent.png">
 		<meta name="keywords" content="HTML, CSS, JavaScript">
 		<script src="https://kit.fontawesome.com/18d285fff3.js" crossorigin="anonymous"></script>
+
 		
 
 		<title>Pierwsza strona</title>
 
 	</head>
+	<!-------------------------------------------------------------->
 	<body>
 
 	
 	
 	<nav id="navigation">
 
-		<img class="image" src="images/logo_transparent.png" alt="logo">
+	<a href="#main"><img class="image" src="images/logo_transparent.png" alt="logo"></a>
 	
 	<ul class="navbar-content">
 		<li>
@@ -50,20 +53,23 @@
 			</a>
 		</li>
 		<li>
-		<div class="discord1" style="background: #c9352a">
-			<a href="#" target="_blank" >
+			<a href="https://discord.gg/xCmR3FYPbC" target="_blank" style="color: #c9352a;">
 				<div class="icon">
 					<i class="fa-brands fa-discord"></i>
 				</div>	
 				<div class="name" data-text="discord">text</div>
 			</a>
-		</div>
 		</li>
-
 	</ul>
+		<div class="linie">
+			<div class="line"></div>
+			<div class="line"></div>
+			<div class="line"></div>
+		</div>
 	</nav>
 	
-<main>
+	<!-------------------------------------------------------------->
+
 <header id="header">
 	
 		 <div class="app">
@@ -76,6 +82,8 @@
       		</div>
       	</div>
 </header>
+<!-------------------------------------------------------------->
+<main id="main">
 	<section id="beginning">
 			<h3>Text</h3>
 			<div id="text1"><p>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -131,9 +139,9 @@
 		</div>
 			
 	</section>
-
+	</main>
 	
-	<!-- to działa jak powinno -->
+	<!-------------------------------------------------------------->
 
 	<footer id=footer>
 		<div class="social-media">
@@ -144,11 +152,12 @@
 			consequat.</p>
 
 		<ul class="socials">
-			<li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-			<li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-			<li><a href="#"><i class="fa-brands fa-discord"></i></a></li>
-			<li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-			<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+			<li><a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+			<li><a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+			<li><a href="https://discord.gg/xCmR3FYPbC" target="_blank"><i class="fa-brands fa-discord"></i></a></li>
+			<li><a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+			<li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+			<li><a href="https://github.com/XxRafaeloxX" target="_blank"><i class="fa-brands fa-github"></i></a></li>
 		</ul>
 
 		</div>
@@ -156,6 +165,6 @@
 			<p>To moja pierwsza strona :D</p>
 		</div>
 	</footer>
-	</main>
+	
 	</body>
 	</html>
