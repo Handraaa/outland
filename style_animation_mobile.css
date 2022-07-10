@@ -278,6 +278,7 @@
   align-items: center;
   flex-direction: column;
 }
+
 .navbar-content {
   display: none;
 }
@@ -290,13 +291,11 @@
   flex-direction: row;
 
 }
-.image {
-  
 
-}
 .linie {
  display: flex;
  flex-wrap: wrap;
  position: relative;
 
+}
 }
