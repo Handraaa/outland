@@ -12,6 +12,7 @@
 		<meta name="keywords" content="HTML, CSS, JavaScript">
 		<script src="https://kit.fontawesome.com/18d285fff3.js" crossorigin="anonymous"></script>
 		<script src="script.js"></script> 
+		<script src="particles.js"></script>
 		
 
 		<title>Pierwsza strona</title>
@@ -19,14 +20,13 @@
 	</head>
 	<!-------------------------------------------------------------->
 	<body>
-
 	
 	
 	<nav id="navigation">
 
 	<a href="index.html"><img class="image" src="images/logo_transparent.png" alt="logo"></a>
 	
-	<ul class="navbar-content">
+	<ul class="navbar-content" id="navbar-list">
 		<li>
 			<a href="#about-me">
 				<div class="icon">
@@ -60,27 +60,22 @@
 			</a>
 		</li>
 		
+		
 	</ul>
-		<div class="burger">
-			<div class="line1"></div>
-			<div class="line2"></div>
-			<div class="line3"></div>
-		</div>	
-
-		<div class="switch">
-			<input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
-			<label for="language-toggle"></label>
-			<span class="on">PL</span>
-			<span class="off">EN</span>
-		  </div>
+		
+	<a href="javascript:void(0);" class="burger" onclick="myFunction()">
+		<i class="fa fa-bars"></i>
+	 </a>
+		
 	</nav>
 	
 	<!-------------------------------------------------------------->
-
-<header id="header">
 	
+	<header id="header">
+		
 		 <div class="app">
       		<div id="wrapper">
+				<div id="particles-js"></div>
         		<h1 class="glitch" data-text="Large Text">Large Text</h1>
        			 <span class="sub">Smaller text</span>
        			  	<div class="container">
@@ -88,7 +83,7 @@
     				</div>
       		</div>
       	</div>
-</header>
+	</header>
 <!-------------------------------------------------------------->
 <main id="main">
 	<section id="beginning">
@@ -172,5 +167,8 @@
 		</div>
 	</footer>
 	<script src="script.js"></script> 
+	<script src="particles.js"></script>
+	<script src="app.js"></script>
+
 	</body>
 	</html>

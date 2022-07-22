@@ -274,42 +274,60 @@
   height: 200px;
 }
 
-
-
-.navbar-content {
-  overflow-x: hidden;
+#navigation {
+  
 }
 .navbar-content {
     position: absolute;
-    right: 0px;
-    height: 92vh;
+    right: 29px;
+    
     top: 8vh;
-    background-color: aqua;
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    transform: translateX(100%);
-    transition: transform 0.5s ease-in;
+   display: flex;
+    
+    overflow: hidden;
+    
 }
 .navbar-content li {
-  opacity: 0;
+  display: none;
+  justify-content: space-around;
 }
-.navigation-activate {
-  transform: translateX(0%);
-}
+
 #navigation {
   background-color: #333;
   display: flex;
   align-items: center;
   position: fixed;
-  z-index: 2;
+  
   flex-direction: row;
 
 }
 
 .burger {
  display: block;
+
 }
+  .navbar-content.responsive {
+    position:relative;
+    height: 30vh;
+    overflow: hidden;
+    
+  }
+  .navbar-content.responsive .burger {
+    margin-bottom: 60px;
+  }
+ 
+  .navbar-content.responsive  li  {
+   opacity: 1;
+    overflow: hidden;
+    flex-direction: row;
+    display: flex;
+    margin-top: 80px;
+  }
+  .switch.responsive {
+    display: block;
+    opacity: 1;
+  }
+
 /*-----------------------*/
 #header2 {
   overflow: hidden;
@@ -463,43 +481,37 @@ form {
   padding-bottom: 20px;
   margin-top: 40px;
   margin-bottom: 40px;
+  
 }
 form h5 {
   margin-top: 10px;
 }
 /*---------------------------------*/
 #table-overall {
-  height: 100vh;
-  width: 100%;
+  
   background-image: url(images/polygons.png);
-  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  overflow: hidden;
+  height: 100%;
+  
 
 }
-.flex {
+.table {
   display: flex;
   background-color: rgba(94, 11, 11, 0.7);
   color: #cccccc;
   font-family: "Nunito", sans-serif;
-  width: 40%;
-  border-radius: 7px;
-  padding: 5%;
-  margin-left: 10%;
-  margin-right: 10%;
   border-radius: 20px;
   padding-right: 20%;
   padding-left: 20%;
   justify-content: space-around;
   flex-direction: column;
-  margin-top: -80px;
-  margin-bottom: 50px;
+  margin-top: -100px;
+  height: 100%;
   
 }
 .flex2 {
-  border-top: 0.1px solid rgba(178, 170, 171, 0.185);
-  border-top: 0.1px solid rgba(178, 170, 171, 0.185);
+  
  padding: 5% 10%;
  flex: 1; 
  
@@ -525,7 +537,7 @@ form h5 {
     border: none;
     background: #aa2b33;
     color: #ffffff;
-    width: 30px;
+    width: 300px;
     height: 50px;
     border-radius: 5px;
     cursor: pointer;
@@ -554,8 +566,5 @@ form h5 {
   cursor: pointer;
   border: 1px solid #c9352a;
 }
-.switch {
-  display: none;
-}
-}
+
 

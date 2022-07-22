@@ -13,6 +13,7 @@
 		<meta name="keywords" content="HTML, CSS, JavaScript">
 		<script src="https://kit.fontawesome.com/18d285fff3.js" crossorigin="anonymous"></script>
 		<script src="https://smtpjs.com/v3/smtp.js"></script>
+		<script src="script.js"></script>
 		
 
 		<title>Pierwsza strona</title>
@@ -23,56 +24,52 @@
 
 	
 	
-	<nav id="navigation">
+		<nav id="navigation">
 
-	<a href="index.html"><img class="image" src="images/logo_transparent.png" alt="logo"></a>
-	
-	<ul class="navbar-content">
-		<li>
-			<a href="index.html">
-				<div class="icon">
-					<i class="fa-solid fa-face-smile-wink"></i>
-				</div>	
-				<div class="name" data-text="about">text</div>
-			</a>
-		</li>
-  		<li>
-  			<a href="index3.html" >
-				<div class="icon">
-					<i class="fa-solid fa-computer"></i>
-				</div>	
-				<div class="name" data-text="Services">text</div>
-			</a>
-		</li>
-		<li>
-			<a href="index2.html">
-				<div class="icon">
-					<i class="fa-solid fa-object-group"></i>
-				</div>	
-				<div class="name" data-text="about">text</div>
-			</a>
-		</li>
-		<li>
-			<a href="https://discord.gg/xCmR3FYPbC" target="_blank" style="color: #c9352a;">
-				<div class="icon">
-					<i class="fa-brands fa-discord"></i>
-				</div>	
-				<div class="name" data-text="discord">text</div>
-			</a>
-		</li>
-	</ul>
-		<div class="linie">
-			<div class="line"></div>
-			<div class="line"></div>
-			<div class="line"></div>
-		</div>
-		<div class="switch">
-			<input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
-			<label for="language-toggle"></label>
-			<span class="on">PL</span>
-			<span class="off">EN</span>
-		  </div>
-	</nav>
+			<a href="index.html"><img class="image" src="images/logo_transparent.png" alt="logo"></a>
+			
+			<ul class="navbar-content" id="navbar-list">
+				<li>
+					<a href="#about-me">
+						<div class="icon">
+							<i class="fa-solid fa-face-smile-wink"></i>
+						</div>	
+						<div class="name" data-text="about">text</div>
+					</a>
+				</li>
+				  <li>
+					  <a href="index3.html" >
+						<div class="icon">
+							<i class="fa-solid fa-computer"></i>
+						</div>	
+						<div class="name" data-text="Services">text</div>
+					</a>
+				</li>
+				<li>
+					<a href="index2.html">
+						<div class="icon">
+							<i class="fa-solid fa-object-group"></i>
+						</div>	
+						<div class="name" data-text="about">text</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://discord.gg/xCmR3FYPbC" target="_blank" style="color: #c9352a;">
+						<div class="icon">
+							<i class="fa-brands fa-discord"></i>
+						</div>	
+						<div class="name" data-text="discord">text</div>
+					</a>
+				</li>
+				
+				
+			</ul>
+				
+			<a href="javascript:void(0);" class="burger" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			 </a>
+				
+			</nav>
 	
 	<!-------------------------------------------------------------->
 
