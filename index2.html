@@ -1,0 +1,154 @@
+
+	<!DOCTYPE html>
+	<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="style2.css">
+		<link rel="stylesheet"  href="style_animation_mobile.css">
+		<meta name="description" content="Osobista strona internetowa">
+		<meta name="author" content="Rafał Zieleniewski">
+		 <link rel="icon" type="image/x-icon" href="images/logo_transparent.png">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<script src="https://kit.fontawesome.com/18d285fff3.js" crossorigin="anonymous"></script>
+		<script src="https://smtpjs.com/v3/smtp.js"></script>
+		<script src="script.js"></script>
+		
+
+		<title>Pierwsza strona</title>
+
+	</head>
+	<!-------------------------------------------------------------->
+	<body>
+
+	
+	
+		<nav id="navigation">
+
+			<a href="index.html"><img class="image" src="images/logo_transparent.png" alt="logo"></a>
+			
+			
+			<ul class="navbar-content" id="navbar-list">
+				<li>
+					<a href="index.html">
+						<div class="icon">
+							<i class="fa-solid fa-face-smile-wink"></i>
+						</div>	
+						<div class="name" data-text="About-me">About Me</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/XxRafaeloxX" >
+					  <div class="icon">
+						<i class="fa-brands fa-github"></i>
+					  </div>	
+					  <div class="name" data-text="Github">Github</div>
+				  </a>
+			  </li>
+				<li>
+					<a href="index2.html">
+						<div class="icon">
+							<i class="fa-solid fa-info"></i>
+						</div>	
+						<div class="name" data-text="info">Info</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://discord.gg/xCmR3FYPbC" target="_blank" style="color: #c9352a;">
+						<div class="icon">
+							<i class="fa-brands fa-discord"></i>
+						</div>	
+						<div class="name" data-text="discord">Discord</div>
+					</a>
+				</li>
+				
+				
+			</ul>
+				
+			<a href="javascript:void(0);" class="burger" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			 </a>
+				
+			</nav>
+	
+	<!-------------------------------------------------------------->
+
+<header id="header2">
+	<div class="Services-description">
+		<h1>Information</h1>
+		<div class="beginning2">
+			<p>In this section you can find more information about contact with me, or what services I can provide (in the future) </p>
+		</div>
+		
+	</div>
+	
+		
+</header>
+<!-------------------------------------------------------------->
+<main id="main2">
+	<section id="Services">
+		<div class="content-box">
+			<h2>Web Development</h2>
+			<div class="content-text">
+				<p>As a beginner Front-End Developer I can make websites for gaining practical expercience, just send me a message! 
+				</p>
+			</div>
+			
+			<a href="" class="button">coming soon</a>
+			<img src="images/sleepy.png" alt="cat">
+		</div>
+
+
+		<div id="aside">
+			<h2>Teamwork</h2>
+			<div class="aside-content">
+				<p>Do you want to help me in developing my career? Send me ideas about what project I should create and call me on discord. 
+					I'd like to take part in making projects with others to develop useful skills.
+				</p>
+			</div>
+			<a href="#footer" class="button">Help me!</a>
+			<img src="images/cat.png" alt="cat">
+			
+		</div>
+	</section>
+
+	
+
+	<section id="cooperation">
+	<div class="form-box">
+		<form onsubmit="sendEmail(); reset(); return false;">
+			<h5>Buisness Contact</h5>
+			<input type="text" id="name" placeholder="Your Name" required>
+			<input type="email" id="email" placeholder="Email" required>
+			<textarea id="message" rows="4" placeholder="How can I help you?"></textarea>
+			<button type="submit">Send</button>
+		</form>
+	</div>
+	</section>
+
+</main>
+	
+	<!-------------------------------------------------------------->
+
+	<footer id="footer">
+		<div class="social-media">
+			<h2>Where you can find me?</h2>
+			<p>If you want to get to know me better, check out my social media, and don't forget about my page on Github! </p>
+
+		<ul class="socials">
+			<li><a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+			<li><a href="https://discord.gg/xCmR3FYPbC" target="_blank"><i class="fa-brands fa-discord"></i></a></li>
+			<li><a href="https://www.youtube.com/c/CyborgRafal" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+			<li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+			<li><a href="https://github.com/XxRafaeloxX" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+		</ul>
+
+		</div>
+		<div class="footer-bottom">
+			<p>It's my first website ever</p>
+		</div>
+	</footer>
+	
+	</body>
+	</html>

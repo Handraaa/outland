@@ -18,18 +18,18 @@ html, body
 #navigation {
   background-color: #333;
   display: flex;
-  align-items: center;
   position: fixed;
   width: 100%;
   z-index: 2;
   justify-content: space-around;
-  margin: auto;
+ 
 }
 
 .image {
     width: 90px;
     height: 90px;
     align-items: center;
+    display: flex;
 }
 .navbar-content{
 
@@ -46,7 +46,7 @@ html, body
   text-decoration: none;
   display: block;
   color: #fff;
-  height: 90px;
+  height: 80px;
   width: 110px;
 }
 .name {
@@ -74,7 +74,6 @@ html, body
   align-self: center;
   padding-bottom: 10px;
   display: none;
-  cursor: pointer;
 }
 /*--------------------------*/
 #particles-js {
@@ -297,7 +296,7 @@ i {
 #about-me img {
   height: auto;
   width: 420px;
-  box-shadow: -20px 20px 0 rgb(201, 53, 42, 1);
+  box-shadow: -20px 20px 0 rgb(112, 30, 24);
   border-radius: 20px;
 }
 .about-text {
